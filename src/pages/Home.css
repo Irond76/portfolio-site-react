@@ -73,7 +73,7 @@ nav{
     height: 8vh;
     margin: 1rem auto 1rem auto;
     align-items: center;
-  
+    
 }
 nav ul {
     display: grid;
@@ -87,12 +87,14 @@ nav ul {
 
 nav ul li a{
     text-decoration: none;
-    border: 1px solid rgba(185,185,183,1);
+    /* border: 1px solid rgba(185,185,183,1); */
     background: rgb(47, 55, 61);
     color: rgba(185,185,183,1);
-    padding: .2rem;
+    padding: 0.50rem;
+    margin: auto;
     letter-spacing: .5rem;
-    border-radius: .8rem;
-} 
+    border-radius: .6rem;
     
+}
+  
     
