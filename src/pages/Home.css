@@ -94,7 +94,7 @@ nav ul li a{
     margin: auto;
     letter-spacing: .5rem;
     border-radius: .6rem;
-    
+    box-shadow:3px 3px 5px 2px rgba(0,0,0,0.5) ;
 }
   
     
