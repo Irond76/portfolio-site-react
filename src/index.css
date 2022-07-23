@@ -85,6 +85,7 @@ ENTER SITE PAGE
   border-radius: 2rem;
   transition: all 1s ease-in-out;
   box-shadow: 3px 3px 20px rgba(185,185,183, 0);
+  text-decoration: none;
 }
 .enter-btn:hover{
   cursor: pointer;

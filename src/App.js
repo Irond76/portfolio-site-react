@@ -1,12 +1,16 @@
 import './index.css';
-import SiteEnter from './components/SiteEnter';
-
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import SiteEnter from './pages/SiteEnter';
+import Home from './pages/Home';
 
 function App() {
   return (
-    <>
-      <SiteEnter />
-    </>
+   <BrowserRouter>
+   <Routes>
+    <Route path='/' element={<SiteEnter />}></Route>
+    <Route path='/home' element={<Home />}></Route>
+   </Routes>
+   </BrowserRouter>
 
     
       

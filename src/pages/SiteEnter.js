@@ -1,4 +1,4 @@
-import React from 'react'
+import { Link } from 'react-router-dom';
 
 
 const SiteEnter = () => {
@@ -7,7 +7,7 @@ const SiteEnter = () => {
         <div className='enter-site'>
             <img src="assets/dale-logo-for-favicon.png" alt="logo" className='site-logo'/>
             <div className="enter-site-title">
-            <button className='enter-btn'>Enter Site</button>
+            <Link to='/home' className='enter-btn'>Enter Site</Link>
             </div>
 
         </div>
