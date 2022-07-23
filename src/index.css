@@ -67,7 +67,7 @@ ENTER SITE PAGE
   }
 }
 .enter-site-title{
-  /* border: 1px solid var(--mainTextColor); */
+  border: 1px solid var(--mainTextColor);
   border-radius: 50%;
   display: grid;
   grid-template-columns: 1fr;

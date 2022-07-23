@@ -3,6 +3,12 @@ import './Home.css';
 const Home = () => {
   return (
     <>
+      <nav className='nav-container'>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/dale-bendixen-223066226/" target="_blank">LinkedIn</a></li>
+          <li><a href="https://github.com/Irond76" target="_blank">GitHub</a></li>
+        </ul>
+      </nav>
         <div className='img-container'>
           <div className="header-image"></div>
         </div>
