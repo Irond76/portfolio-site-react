@@ -27,7 +27,7 @@
 .about{
     /* border: 1px solid blue; */
     display: grid;
-    width: 80vw;
+    width: 75vw;
     background: rgb(47, 55, 61);
     margin: 1.5rem auto 0 auto;
     justify-content: center;
@@ -40,7 +40,7 @@
 }
 .about:hover {
     display: grid;
-    width: 80vw;
+    width: 75vw;
     background: rgb(47, 55, 61);
     margin: auto;
     margin-top: 3rem;
@@ -60,8 +60,8 @@
 }
 
 .about-me-info{
-    width: 60vw;
-    font-size: 1.2rem;
+    width: 65vw;
+    font-size: 1.5rem;
     letter-spacing: .1rem;
 }
 .bold{
