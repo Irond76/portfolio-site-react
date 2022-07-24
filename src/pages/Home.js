@@ -1,12 +1,15 @@
 import './Home.css';
+import {Link} from 'react-router-dom';
 
 const Home = () => {
   return (
     <>
       <nav className='nav-container'>
         <ul>
-          <li><a href="https://www.linkedin.com/in/dale-bendixen-223066226/" target="_blank">LinkedIn</a></li>
-          <li><a href="https://github.com/Irond76" target="_blank">GitHub</a></li>
+          <Link className='btn' to='/education' >Education</Link>
+          <Link className='btn' to='/resume' >Resume</Link>
+          <li className='btn-1'><a href="https://www.linkedin.com/in/dale-bendixen-223066226/" target="_blank" >LinkedIn</a></li>
+          <li className='btn-1'><a href="https://github.com/Irond76" target="_blank">GitHub</a></li>
         </ul>
       </nav>
         <div className='img-container'>
