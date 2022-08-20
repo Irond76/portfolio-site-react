@@ -74,7 +74,7 @@ ENTER SITE PAGE
   width:20vw;
   text-align: center;
   margin: 1.5rem auto;
-  animation: logo-pulse 1.5s infinite linear;
+  animation: logo-pulse 1s infinite linear;
 }
 .enter-btn {
   letter-spacing: .3rem;
